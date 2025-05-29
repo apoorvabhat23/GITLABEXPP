@@ -1,0 +1,22 @@
+<4. Experiment 4:   
+ Creating and switching branches 
+ Merging branches and resolving conflicts 
+ Rebasing branches and understanding rebase vs. merge 
+Creating and Switching Branches  
+In Git, branches allow you to work on different versions of a project without affecting the 
+main codebase. Here’s how you can create and switch branches in Git: 
+
+Commands:
+git branch 
+git branch <name> 
+git checkout <name> 
+List branches 
+Create a branch 
+Description 
+Switch to a branch 
+git checkout -b <name> 
+git switch <name> 
+git switch -c <name> 
+git branch -d <name> 
+git merge <name> 
+git push -u origin <name>

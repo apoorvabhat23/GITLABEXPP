@@ -1,0 +1,25 @@
+Experiment 8:   
+Write the command to display the last five commits in the repository's history. 
+To display the last five commits in the repository's history, use: 
+git log --oneline -n 5 
+Explanation: 
+ git log → Displays commit history 
+ --oneline → Shows each commit in a single line (shorter output) 
+ -n 5 → Limits output to the last 5 commits 
+More detailed view, including commit messages and authors: 
+To display the last five commits with detailed information (including commit messages, 
+authors, and timestamps), use: 
+git log -n 5 --pretty=format:"%h - %an, %ar : %s" 
+Explanation: 
+ git log -n 5 → Shows the last 5 commits 
+ --pretty=format:"..." → Customizes the log output: 
+o %h → Short commit hash 
+o %an → Author name 
+o %ar → Relative commit time (e.g., 2 days ago) 
+o %s → Commit message 
+Example Output: 
+a1b2c3d - Alice, 2 hours ago : Fixed login bug 
+e4f5g6h - Bob, 1 day ago : Improved UI for dashboard 
+i7j8k9l - Charlie, 3 days ago : Added authentication middleware 
+m0n1o2p - Alice, 5 days ago : Updated README file 
+q3r4s5t - Bob, 1 week ago : Refactored user profile logic

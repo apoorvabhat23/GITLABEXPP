@@ -1,0 +1,13 @@
+6a. Implementing a feature branch workflow 
+ Creating pull requests 
+ Conducting code reviews and resolving conflicts 
+Implementing a Feature Branch Workflow in Git is a great way to collaborate effectively while 
+keeping the main branch stable. Here’s a step-by-step guide: 
+
+6b.Creating a Pull Request (PR) in GitHub/GitLab/Bitbucket � 
+A Pull Request (PR) is how you propose changes from a feature branch to be merged into the 
+main branch (main or develop). Here's how you can do it:
+
+6c. Conducting Code Reviews and Resolving Conflicts in Git  
+A code review ensures that code is high quality, follows best practices, and is free of errors 
+before merging into the main branch. Resolving merge conflicts is a crucial step in this process. 

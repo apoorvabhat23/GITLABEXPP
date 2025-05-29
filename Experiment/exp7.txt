@@ -1,0 +1,26 @@
+Experiment 7:   
+ Using git stash to manage work in progress 
+ Performing an interactive rebase 
+ Tagging commits and creating releases 
+ Resetting and reverting changes 
+
+7a. Using git stash to Manage Work in Progress 
+Sometimes, you need to temporarily set aside your uncommitted changes (e.g., switching 
+branches, fixing an urgent bug). Instead of committing half-done work, you can use git stash. 
+
+7b. Performing an Interactive Rebase in Git �� 
+Interactive rebase (git rebase -i) allows you to edit, combine, reorder, or remove commits
+
+
+Command 
+pick 
+Keep the commit as is 
+Action 
+reword Edit the commit message 
+edit 
+Modify the commit content 
+squash Combine with the previous commit (keeps message) 
+fixup 
+drop 
+Combine with the previous commit (drops message) 
+Remove the commit

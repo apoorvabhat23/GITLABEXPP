@@ -1,0 +1,20 @@
+5. Merging Branches and Resolving Conflicts  
+Merging allows you to combine changes from one branch into another. However, sometimes 
+conflicts arise if the same part of a file is modified in multiple branches. Here’s how to merge 
+branches and resolve conflicts in Git. 
+
+Commands:
+git checkout main 
+git merge <branch-name> 
+git status 
+git add <filename> 
+Description 
+Switch to the target branch 
+Merge the specified branch into the current branch 
+Check for merge conflicts 
+Mark conflicts as resolved 
+git commit -m "Resolved conflicts" Complete the merge 
+git merge --abort 
+git push origin main 
+Cancel the merge 
+Push merged changes to the remote repository

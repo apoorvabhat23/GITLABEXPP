@@ -1,0 +1,13 @@
+1. Setting up Git on local machines 
+ Creating a new repository 
+ Making and tracking changes 
+ Viewing the commit history 
+Setting Up and Basic Commands:  
+Initialize a new Git repository in a directory. Create a new file and add it to the staging  area and 
+commit the changes with an appropriate commit message. </p>
+
+ Commands
+  log: View commit history. 
+ git status: Check the state of your working directory. 
+ git diff: See what’s changed in your files. 
+ git show <commit_hash>: View details of a specific commit.</p></html>

@@ -1,0 +1,19 @@
+Experiment 9: 
+Write the command to cherry-pick a range of commits from &quot;source- branch&quot; to the 
+current branch. 
+To cherry-pick a range of commits from "source-branch" to the current branch, use: 
+git cherry-pick <start-commit-hash>^..<end-commit-hash> 
+Steps: 
+1. Switch to the branch where you want to apply the commits: 
+2. git checkout target-branch 
+3. Identify the commit hashes using: 
+4. git log --oneline source-branch 
+5. Cherry-pick the range of commits: 
+6. git cherry-pick <start-commit-hash>^..<end-commit-hash> 
+Example: 
+If you want to cherry-pick commits from e4f5g6h to i7j8k9l: 
+git cherry-pick e4f5g6h^..i7j8k9l 
+Note: The ^ before the first commit ensures that it includes e4f5g6h in the range. 
+Cherry-Pick Multiple Non-Consecutive Commits 
+If you need to cherry-pick specific commits (not a range), list them individually: 
+git cherry-pick e4f5g6h i7j8k9l m0n1o2p

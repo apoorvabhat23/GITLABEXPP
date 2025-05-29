@@ -1,0 +1,20 @@
+Experiment 10: 
+c. Write the command to list all commits made by the author ”JohnDoe” between “2023-01
+01” and “2023-12-31” 
+To list all commits made by the author "JohnDoe" between January 1, 2023, and December 
+31, 2023, use: 
+git log --author="JohnDoe" --since="2023-01-01" --until="2023-12-31" -
+pretty=format:"%h - %ad - %s" --date=short 
+Explanation: 
+ --author="JohnDoe" → Filters commits by the author name 
+ --since="2023-01-01" → Includes commits from January 1, 2023 
+ --until="2023-12-31" → Includes commits up to December 31, 2023 
+ --pretty=format:"%h - %ad - %s" → Custom output format: 
+o %h → Short commit hash 
+o %ad → Commit date 
+o %s → Commit message 
+ --date=short → Formats the date as YYYY-MM-DD 
+Example Output: 
+a1b2c3d - 2023-03-15 - Fixed login bug 
+e4f5g6h - 2023-07-21 - Updated dashboard UI 
+i7j8k9l - 2023-11-05 - Improved API security

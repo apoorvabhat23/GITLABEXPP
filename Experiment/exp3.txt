@@ -1,0 +1,17 @@
+3.  Pulling updates from a remote repository 
+ Exploring git fetch and git merge 
+Pulling updates from a remote repository allows you to fetch and merge changes that others have 
+made (or that you've made on another machine) into your local repository. Here's how to do it: 
+
+Commands
+1. Pull the latest changes from the remote repository: 
+2. git pull origin <branch_name> 
+Example: 
+git pull origin main 
+3. If there are merge conflicts, resolve them manually, add the changes, and commit: 
+4. git add <file_name> 
+5. git commit -m "Resolved merge conflict" 
+6. Check the status of your repository: 
+7. git status 
+8. View commit history to verify changes: 
+9. git log --oneline</p>
